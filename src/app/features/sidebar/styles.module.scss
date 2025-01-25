@@ -65,12 +65,12 @@
       text-align: left;
       text-underline-position: from-font;
       text-decoration-skip-ink: none;
-      background-color: #000000;
+      background-color: #2A2D74;
       color: #fff;
       border-radius: 10px;
 
       &:hover {
-        background-color: #070606;
+        background-color: #22245e;
         color: #fff;
       }
 
@@ -108,6 +108,7 @@
       padding: 0px 10px;
       border-radius: 8px;
       font-weight: 600;
+      font-family: PoppingsRegular;
       color: #f9f9f9;
       svg {
         color: #fff;
@@ -157,6 +158,7 @@
     padding-left: 30px;
     border-radius: 8px;
     font-weight: 600;
+    font-family: PoppingsRegular;
 
     &:hover {
       background-color: var(--neutral-900);

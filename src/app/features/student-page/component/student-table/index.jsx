@@ -69,7 +69,7 @@ const StudentTable = () => {
       if (isEditMode && selectedStudentId) {
         const studentRef = collection(db, "students");
         await updateDoc(doc(studentRef, selectedStudentId), formData);
-        alert("Student updated successfully!");
+        // alert("Student updated successfully!");
       } else {
         await addDoc(collection(db, "students"), formData);
         // alert("Student added successfully!");
